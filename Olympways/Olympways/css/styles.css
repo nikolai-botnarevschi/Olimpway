@@ -1,0 +1,174 @@
+/*Specification*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a:hover {
+	text-decoration: none;
+}
+ul, li {
+	list-style-type: none;
+}
+
+i{
+	color: white;
+	font-size: 35px;
+}
+
+
+/*Navigation bar*/
+.nav{
+	background-color: #000;
+	height: 45px;
+}
+.nav a{
+	color: white;
+	margin-right: 35px;
+
+}
+.nav a:hover{
+	height: 100%;
+	color: gainsboro;
+	font-weight: 900;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+/*Ecran Olympways*/
+.olympways{
+	background-image: url(../images/hunter-bryant-48373-unsplash.jpg) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	height: 540px;
+}
+.container h1 {
+	font-family: 'Prosto One', cursive;
+	font-weight: 900;
+	padding-top: 100px;
+	padding-bottom: 15px;
+}
+.partener i:hover{
+	border-radius: 30px;
+    border-style: solid;
+    border-color: white;
+    color: gainsboro;
+	
+}
+.partener i{
+    color: white;
+    padding: 5px;
+    font-size: 40px;
+	
+}
+.partener{
+    padding-top: 30px;
+}
+
+/*Ecran crofanding*/
+.crofanding {
+	padding-top: 70px;
+    padding-bottom: 35px;
+}
+
+/*Ecran Sportivi*/
+.sportivi {
+    background-color: black;
+    color: white;
+
+}
+
+.line{
+    width: 30px;
+    color: white;
+    height: 2px;
+    
+}
+.sportivi__title {
+    padding-top: 70px;
+    padding-bottom: 35px;
+}
+
+/*Ecran Platform*/
+.platform {
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+/*Ecran Contacts*/
+.contacts {
+    background-color: black;
+    color: white;
+    padding-top: 70px;
+}
+
+.contacts input {
+  border: none ! important; 
+  border-bottom: solid 1px #fff ! important;
+  border-radius: 0 ! important;
+  background: #fff ! important;
+  box-shadow: none ! important;
+}
+
+.contact_form h2 {
+    padding-top: 70px;
+    padding-bottom: 35px;
+}
+
+/*Ecran croufanding*/
+.croufanding {
+    padding-top: 70px;
+    padding-bottom: 35px;
+}
+
+.form__contact input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: blue
+}
+input:focus {
+  border-color: green;
+}
+
+.footer {
+    padding-top: 85px;
+    background-color: black;  
+}
+
+.line__footer {
+    color: red;
+    width: 1px;
+}
+
+.footer__container {
+    border-top-color: white;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.menu__item-footer a {
+    padding-right: 28px;
+    color: white;
+}
+.menu__item-footer a:hover {
+    color: gainsboro;
+    font-weight: 900;
+}
+
+.footer_bar {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.menu__item-social i {
+    font-size: 15px;
+    color: white;
+    padding-right: 15px;
+}
+.menu__item-social i:hover {
+    font-weight: 900;
+    color: gainsboro;
+}
